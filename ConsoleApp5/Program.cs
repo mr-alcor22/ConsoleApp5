@@ -10,12 +10,16 @@ namespace ConsoleApp5
     {
         static void Main(string[] args)
         {
+
             int a = Convert.ToInt32(Console.ReadLine());
-            int b = Convert.ToInt32(Console.ReadLine());
-            int c = a;
-            a = b;
-            b = c;
-            Console.WriteLine(a + " " + b);
+            int b = a * a;
+            int c = b * b;
+            int d = c * b;
+            int result = d;
+            Console.WriteLine(result);
+
+
+
         }
     }
 }
